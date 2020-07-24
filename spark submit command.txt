@@ -1,0 +1,1 @@
+spark-submit --class com.spark.training.ScalaWordCount --master local /home/cts534705/training/jars/SparkProject-0.0.1-SNAPSHOT.jar file:///home/cts534705/training/input/wordcountinput.txt file:///home/cts534705/training/output/wcout
